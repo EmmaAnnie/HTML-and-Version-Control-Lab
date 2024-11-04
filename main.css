@@ -4,3 +4,6 @@ header {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+section {
+    background: rgb(255, 202, 202);
+}
