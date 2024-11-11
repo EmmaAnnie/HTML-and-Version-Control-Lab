@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    padding: 30px;
+    border: solid;
+    border-width: 10px;
+    border-radius: 40px;
+}
+section {
+    padding: 30px;
+    background: rgb(255, 233, 236);
+}
+img {
+    max-width: 100%;
+}
