@@ -14,5 +14,22 @@ p {
 }
 body {
     padding: 30px;
-    border: dotted;
+    border: solid;
+    border-width: 10px;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
 }
