@@ -35,3 +35,34 @@ table, th, td {
     font-size: xx-large;
     padding: 20px;
 }
+.container {
+    margin: 20px auto 20px auto;
+
+}
+
+
+
+
+@media(max-width:780px) { /*MOBILE VIEW MEDIA QUERY*/
+    body{
+        background-color: teal;
+    }
+
+
+}
+
+@media(min-width: 781px) and (max-width:1920px){ /*TABLET VIEW MEDIA QUERY */
+ body{
+    background-color: blueviolet;
+ }
+
+
+}
+
+@media(min-width: 1921px){ /*DESKTOP VIEW MEDIA QUERY*/
+    body{
+        background-color: brown;
+    }
+
+
+}
