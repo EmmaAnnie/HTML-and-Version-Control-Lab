@@ -2,7 +2,7 @@ header {
     background: rgb(247, 178, 190);
     padding: 20px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bodoni Moda';
 }
 section {
     background: rgb(255, 233, 236);
@@ -24,8 +24,9 @@ footer {
     text-align: center;
 }
 nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
+    justify-content: center;
 }
 table, th, td {
     border: 1px solid;
