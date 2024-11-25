@@ -29,6 +29,9 @@ nav ul {
     list-style: none;
     justify-content: center;
 }
+table {
+    align-items: center
+}
 table, th, td {
     border: 1px solid;
     text-align: center;
