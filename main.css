@@ -53,14 +53,104 @@ table, th, td {
     body{
         background-color: teal;
     }
+    header {
+        background: rgb(247, 178, 190);
+        padding: 20px;
+        text-align: center;
+        font-family: 'Bodoni Moda';
+        font-weight: 400;
+    }
+    section {
+        background: rgb(255, 233, 236);
+        padding: 20px;
+    }
+    p {
+        background: rgb(255, 233, 236);
+        padding: 20px;
+    }
+    body {
+        padding: 30px;
+        border: solid;
+        border-width: 10px;
+        border-radius: 40px;
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    table {
+        align-items: center
+    }
+    table, th, td {
+        border: 1px solid;
+        text-align: center;
+        font-size: xx-large;
+        padding: 20px;
+    }
+    .container {
+        margin: 20px auto 20px auto;
+        max-width: 1200px;
+        display: flex;
+    }
 
 
 }
 
 @media(min-width: 781px) and (max-width:1920px){ /*TABLET VIEW MEDIA QUERY */
- body{
-    background-color: blueviolet;
- }
+    body{
+        background-color: blueviolet;
+    }
+    header {
+        background: rgb(247, 178, 190);
+        padding: 20px;
+        text-align: center;
+        font-family: 'Bodoni Moda';
+        font-weight: 400;
+    }
+    section {
+    background: rgb(255, 233, 236);
+    padding: 20px;
+    }
+    p {
+        background: rgb(255, 233, 236);
+        padding: 20px;
+    }
+    body {
+        padding: 30px;
+        border: solid;
+        border-width: 10px;
+        border-radius: 40px;
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    table {
+        align-items: center
+    }
+    table, th, td {
+        border: 1px solid;
+        text-align: center;
+        font-size: xx-large;
+        padding: 20px;
+    }
+    .container {
+        margin: 20px auto 20px auto;
+        max-width: 1200px;
+        display: flex;
+    }
 
 
 }
@@ -68,6 +158,51 @@ table, th, td {
 @media(min-width: 1921px){ /*DESKTOP VIEW MEDIA QUERY*/
     body{
         background-color: brown;
+    }
+    header {
+        background: rgb(247, 178, 190);
+        padding: 20px;
+        text-align: center;
+        font-family: 'Bodoni Moda';
+        font-weight: 400;
+    }
+    section {
+        background: rgb(255, 233, 236);
+        padding: 20px;
+    }
+    p {
+        background: rgb(255, 233, 236);
+        padding: 20px;
+    }
+    body {
+        padding: 30px;
+        border: solid;
+        border-width: 10px;
+        border-radius: 40px;
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    table {
+        align-items: center
+    }
+    table, th, td {
+        border: 1px solid;
+        text-align: center;
+        font-size: xx-large;
+        padding: 20px;
+    }
+    .container {
+        margin: 20px auto 20px auto;
+        max-width: 1200px;
+        display: flex;
     }
 
 
