@@ -9,6 +9,24 @@ section {
     padding: 30px;
     background: rgb(255, 233, 236);
 }
+ul {
+    text-align: left;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+figure {
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    padding: 0.5em 1em;
+}
+.container {
+    margin: 20px auto 20px auto;
+    max-width: 1200px;
+    display: flex;
+}
 img {
     max-width: 100%;
 }
