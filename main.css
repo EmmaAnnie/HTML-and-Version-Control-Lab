@@ -46,9 +46,7 @@ table, th, td {
 
 
 @media(max-width:780px) { /*MOBILE VIEW MEDIA QUERY*/
-    body{
-        background-color: teal;
-    }
+    
     header {
         background: rgb(247, 178, 190);
         padding: 20px;
@@ -99,9 +97,7 @@ table, th, td {
 }
 
 @media(min-width: 781px) and (max-width:1920px){ /*TABLET VIEW MEDIA QUERY */
-    body{
-        background-color: blueviolet;
-    }
+        
     header {
         background: rgb(247, 178, 190);
         padding: 20px;
@@ -147,14 +143,13 @@ table, th, td {
         max-width: 1200px;
         display: flex;
     }
-
-
 }
 
+
+
+
 @media(min-width: 1921px){ /*DESKTOP VIEW MEDIA QUERY*/
-    body{
-        background-color: brown;
-    }
+   
     header {
         background: rgb(247, 178, 190);
         padding: 20px;
