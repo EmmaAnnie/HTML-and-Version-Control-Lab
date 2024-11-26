@@ -12,4 +12,18 @@ section {
 img {
     max-width: 100%;
 }
-/*Add to the document afterward, including more information*/
+
+
+
+
+@media(max-width: 780px) { /* MOBILE VIEW MEDIA QUERY */
+
+}
+
+@media(min-width: 781px) and (max-width: 1920px) { /* TABLET VIEW MEDIA QUERY */
+
+}
+
+@media(min-width: 1921px) { /* DESKTOP VIEW MEDIA QUERY */
+
+}
